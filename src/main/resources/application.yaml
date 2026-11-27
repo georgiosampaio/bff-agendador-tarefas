@@ -5,5 +5,12 @@ usuario:
   url: http://localhost:8080/usuario
 agendador-tarefas:
   url: http://localhost:8081/tarefas
+notificacao:
+  url: http://localhost:8082/email
 server:
   port: 8083
+cron:
+  expression: 0 0/5 14 * * ?
+cronusuario:
+  email: "admin@admin.com"
+  senha: "123456"
